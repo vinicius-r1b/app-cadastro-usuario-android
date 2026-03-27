@@ -1,4 +1,4 @@
-package com.joaofelipe.cadastrousuario;
+package com.vinicius.cadastrousuario;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;

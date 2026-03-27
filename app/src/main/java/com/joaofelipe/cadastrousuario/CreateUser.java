@@ -1,4 +1,4 @@
-package com.vinicius.cadastrousuario;
+package com.joaofelipe.cadastrousuario;
 
 //Bloco de importações
 import android.os.Bundle;
@@ -7,7 +7,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.google.android.material.textfield.TextInputEditText;
 
 //Classe principal
-public class    CreateUser extends AppCompatActivity {
+public class CreateUser extends AppCompatActivity {
 
     TextInputEditText editNome, editEmail;
     Button btnSalvar;
@@ -17,6 +17,7 @@ public class    CreateUser extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_create_user);
 
+        //Vincula variável com elemento da interface gráfica, escrito
         editNome = findViewById(R.id.nome_completo);
         editEmail = findViewById(R.id.email);
         btnSalvar = findViewById(R.id.btnSalvar);
